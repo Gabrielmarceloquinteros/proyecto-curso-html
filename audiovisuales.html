@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebe el gato gris</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: gray;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 100px 5px 5px 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+            box-shadow: 1px 1px 2px #000000;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Bebe el gato mas gris</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Preferencias.html">Preferencias</a></li>
+                <li><a class="active" href="audiovisuales.html">Audivisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="centrado">
+        <video style="margin-top: 70px; box-shadow:2px 2px 3px #000000; ;" src="/assets/img/video/bebevideo2.mp4" autoplay muted loop></video>
+    </div>
+    <div class="centrado">
+        <audio style="margin-top: 90px;" src="/assets/img/audio/maullido.mp3.mp3" autoplay controls></audio>
+    </div>
+
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="/assets/img/bebe1.jpeg" target="_blank"><img src="/assets/img/bebe1.jpeg" alt="" width="600px"></a>
+            <div style="background-color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="desc">Bebe el cazador</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/bebe6.jpeg" target="_blank"><img src="/assets/img/bebe6.jpeg" alt="" width="600px"></a>
+            <div style="background-color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="desc">Bebe esta bien gris</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/bebe5.jpeg"  target="_blank"><img src="/assets/img/bebe5.jpeg" alt="" width="600px"></a>
+            <div style="background-color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="desc">bebe siendo bebe</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/bebe5.jpeg" target="_blank"><img src="/assets/img/bebe5.jpeg" alt="" width="600px"></a>
+            <div style="background-color:white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="desc">bebe again</div> 
+        </div> 
+    </section>
+
+    <footer style="margin-top: 100px;"  class="footer"> 
+        <p>
+            Derechos reservados &copy; 2024
+        </p>
+    </footer>
+</body>
+
+</html>
